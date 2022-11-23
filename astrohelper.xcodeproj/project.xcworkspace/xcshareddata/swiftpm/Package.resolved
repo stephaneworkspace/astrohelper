@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "svgview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephaneworkspace/SVGView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bcc3e54051acd94df1c54522815e6688ac9d6966"
+      }
+    },
+    {
+      "identity" : "swebressanidev",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephaneworkspace/SweBressaniDev.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f0e42adb608385e0187413238c182740a0e6905"
+      }
+    },
+    {
+      "identity" : "tppdf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephaneworkspace/TPPDF.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0dbe543c517c94d0bebacdaf1c0894a9a28c4a78"
+      }
+    },
+    {
+      "identity" : "zip-1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephaneworkspace/Zip-1",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f34106fbf053319638ea42056eb5d131c6bb2149"
+      }
+    }
+  ],
+  "version" : 2
+}
