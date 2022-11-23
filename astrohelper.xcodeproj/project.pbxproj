@@ -11,6 +11,10 @@
 		F4AED168292E130C00480C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED167292E130C00480C2E /* ContentView.swift */; };
 		F4AED16A292E130E00480C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED169292E130E00480C2E /* Assets.xcassets */; };
 		F4AED16D292E130E00480C2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED16C292E130E00480C2E /* Preview Assets.xcassets */; };
+		F4AED175292E13C500480C2E /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED174292E13C500480C2E /* Zip */; };
+		F4AED178292E13DE00480C2E /* SweBressaniDev in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED177292E13DE00480C2E /* SweBressaniDev */; };
+		F4AED17A292E148500480C2E /* VDignitesAstrales.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED179292E148500480C2E /* VDignitesAstrales.swift */; };
+		F4AED17C292E15B900480C2E /* ephem.zip in Resources */ = {isa = PBXBuildFile; fileRef = F4AED17B292E15B900480C2E /* ephem.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,8 @@
 		F4AED167292E130C00480C2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4AED169292E130E00480C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AED16C292E130E00480C2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4AED179292E148500480C2E /* VDignitesAstrales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDignitesAstrales.swift; path = ../../astronumerologie/astronumerologie/VDignitesAstrales.swift; sourceTree = "<group>"; };
+		F4AED17B292E15B900480C2E /* ephem.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ephem.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AED175292E13C500480C2E /* Zip in Frameworks */,
+				F4AED178292E13DE00480C2E /* SweBressaniDev in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +59,10 @@
 		F4AED164292E130C00480C2E /* astrohelper */ = {
 			isa = PBXGroup;
 			children = (
+				F4AED17B292E15B900480C2E /* ephem.zip */,
 				F4AED165292E130C00480C2E /* astrohelperApp.swift */,
 				F4AED167292E130C00480C2E /* ContentView.swift */,
+				F4AED179292E148500480C2E /* VDignitesAstrales.swift */,
 				F4AED169292E130E00480C2E /* Assets.xcassets */,
 				F4AED16B292E130E00480C2E /* Preview Content */,
 			);
@@ -83,6 +93,10 @@
 			dependencies = (
 			);
 			name = astrohelper;
+			packageProductDependencies = (
+				F4AED174292E13C500480C2E /* Zip */,
+				F4AED177292E13DE00480C2E /* SweBressaniDev */,
+			);
 			productName = astrohelper;
 			productReference = F4AED162292E130C00480C2E /* astrohelper.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = F4AED159292E130C00480C2E;
+			packageReferences = (
+				F4AED173292E13C500480C2E /* XCRemoteSwiftPackageReference "Zip-1" */,
+				F4AED176292E13DE00480C2E /* XCRemoteSwiftPackageReference "SweBressaniDev" */,
+			);
 			productRefGroup = F4AED163292E130C00480C2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +145,7 @@
 			files = (
 				F4AED16D292E130E00480C2E /* Preview Assets.xcassets in Resources */,
 				F4AED16A292E130E00480C2E /* Assets.xcassets in Resources */,
+				F4AED17C292E15B900480C2E /* ephem.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AED17A292E148500480C2E /* VDignitesAstrales.swift in Sources */,
 				F4AED168292E130C00480C2E /* ContentView.swift in Sources */,
 				F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */,
 			);
@@ -339,6 +359,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4AED173292E13C500480C2E /* XCRemoteSwiftPackageReference "Zip-1" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephaneworkspace/Zip-1";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F4AED176292E13DE00480C2E /* XCRemoteSwiftPackageReference "SweBressaniDev" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephaneworkspace/SweBressaniDev.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4AED174292E13C500480C2E /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4AED173292E13C500480C2E /* XCRemoteSwiftPackageReference "Zip-1" */;
+			productName = Zip;
+		};
+		F4AED177292E13DE00480C2E /* SweBressaniDev */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4AED176292E13DE00480C2E /* XCRemoteSwiftPackageReference "SweBressaniDev" */;
+			productName = SweBressaniDev;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4AED15A292E130C00480C2E /* Project object */;
 }
