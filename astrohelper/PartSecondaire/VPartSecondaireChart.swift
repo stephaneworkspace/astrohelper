@@ -17,7 +17,7 @@ public struct VAstrologieChart: View {
 
     public var body: some View {
         ZStack {
-            //VAstrologieZodiac(bsSwe: $bsSwe)
+            VPartSecondaireZodiac(bsSwe: $bsSwe)
             ForEach(1...12, id: \.self) { i in
                 VAstrologieAssetSigns(bsSwe: $bsSwe, siSign: i)
             }
@@ -33,8 +33,8 @@ public struct VAstrologieChart: View {
             //
             ForEach(Array(zip(bsSwe.bodiesForLoop.indices, bsSwe.bodiesForLoop)), id: \.1) { i, b in
                 if (baBodies[i]) {
-                    VAstrologieBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: false)
-                    VAstrologieBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: true)
+                    VPartSecondaireBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: false)
+                    VPartSecondaireBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: true)
                     VAstrologieAssetBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: false)
                     VAstrologieAssetBodies(bsSwe: $bsSwe, sbBodie: b, sbTransit: true)
                 }

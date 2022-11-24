@@ -17,6 +17,8 @@
 		F4AED175292E13C500480C2E /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED174292E13C500480C2E /* Zip */; };
 		F4AED178292E13DE00480C2E /* SweBressaniDev in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED177292E13DE00480C2E /* SweBressaniDev */; };
 		F4AED17C292E15B900480C2E /* ephem.zip in Resources */ = {isa = PBXBuildFile; fileRef = F4AED17B292E15B900480C2E /* ephem.zip */; };
+		F4E990DA292F672F00F0B90D /* VPartSecondaireZodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E990D9292F672F00F0B90D /* VPartSecondaireZodiac.swift */; };
+		F4E990DD292F767300F0B90D /* VPartSecondaireBodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E990DC292F767300F0B90D /* VPartSecondaireBodies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F4AED169292E130E00480C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AED16C292E130E00480C2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4AED17B292E15B900480C2E /* ephem.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ephem.zip; sourceTree = "<group>"; };
+		F4E990D9292F672F00F0B90D /* VPartSecondaireZodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartSecondaireZodiac.swift; sourceTree = "<group>"; };
+		F4E990DC292F767300F0B90D /* VPartSecondaireBodies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartSecondaireBodies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 		F45CABD3292F65CF003C484D /* PartSecondaire */ = {
 			isa = PBXGroup;
 			children = (
+				F4E990DB292F676300F0B90D /* Chart */,
 				F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */,
 			);
 			path = PartSecondaire;
@@ -89,6 +94,15 @@
 				F4AED16C292E130E00480C2E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4E990DB292F676300F0B90D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				F4E990D9292F672F00F0B90D /* VPartSecondaireZodiac.swift */,
+				F4E990DC292F767300F0B90D /* VPartSecondaireBodies.swift */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AED168292E130C00480C2E /* ContentView.swift in Sources */,
+				F4E990DD292F767300F0B90D /* VPartSecondaireBodies.swift in Sources */,
 				F45CABD5292F65EA003C484D /* VPartSecondaireChart.swift in Sources */,
 				F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */,
 				F45CABD2292F5C48003C484D /* VPartsSecondaire.swift in Sources */,
+				F4E990DA292F672F00F0B90D /* VPartSecondaireZodiac.swift in Sources */,
 				F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
