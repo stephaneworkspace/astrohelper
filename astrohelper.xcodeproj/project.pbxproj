@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */; };
+		F45CABD2292F5C48003C484D /* VPartsSecondaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABD1292F5C48003C484D /* VPartsSecondaire.swift */; };
+		F45CABD5292F65EA003C484D /* VPartSecondaireChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */; };
 		F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED165292E130C00480C2E /* astrohelperApp.swift */; };
 		F4AED168292E130C00480C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED167292E130C00480C2E /* ContentView.swift */; };
 		F4AED16A292E130E00480C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED169292E130E00480C2E /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDignitesAstrales.swift; sourceTree = "<group>"; };
+		F45CABD1292F5C48003C484D /* VPartsSecondaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartsSecondaire.swift; sourceTree = "<group>"; };
+		F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartSecondaireChart.swift; sourceTree = "<group>"; };
 		F4AED162292E130C00480C2E /* astrohelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrohelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AED165292E130C00480C2E /* astrohelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astrohelperApp.swift; sourceTree = "<group>"; };
 		F4AED167292E130C00480C2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45CABD3292F65CF003C484D /* PartSecondaire */ = {
+			isa = PBXGroup;
+			children = (
+				F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */,
+			);
+			path = PartSecondaire;
+			sourceTree = "<group>";
+		};
 		F4AED159292E130C00480C2E = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +71,14 @@
 		F4AED164292E130C00480C2E /* astrohelper */ = {
 			isa = PBXGroup;
 			children = (
+				F45CABD3292F65CF003C484D /* PartSecondaire */,
 				F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */,
 				F4AED17B292E15B900480C2E /* ephem.zip */,
 				F4AED165292E130C00480C2E /* astrohelperApp.swift */,
 				F4AED167292E130C00480C2E /* ContentView.swift */,
 				F4AED169292E130E00480C2E /* Assets.xcassets */,
 				F4AED16B292E130E00480C2E /* Preview Content */,
+				F45CABD1292F5C48003C484D /* VPartsSecondaire.swift */,
 			);
 			path = astrohelper;
 			sourceTree = "<group>";
@@ -157,7 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AED168292E130C00480C2E /* ContentView.swift in Sources */,
+				F45CABD5292F65EA003C484D /* VPartSecondaireChart.swift in Sources */,
 				F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */,
+				F45CABD2292F5C48003C484D /* VPartsSecondaire.swift in Sources */,
 				F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +318,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = stephane.bressani.dev.astrohelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,6 +350,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = stephane.bressani.dev.astrohelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

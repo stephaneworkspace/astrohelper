@@ -52,6 +52,18 @@ struct ContentView: View {
                 }
                 .tag(1)
                 VStack {
+                    VPartsSecondaire(bsSwe: $swe, bdNatal: $sdNatal, bdLat: $bdLat, bdLng: $bdLng, biTimeZone: $biTimeZone, bbBodies: $swBodies)
+                }
+                .padding()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "sparkles")
+                        Text("Parts secondaire")
+                    }
+                    
+                }
+                .tag(2)
+                VStack {
                     VDignitesAstrales(bsSwe: $swe)
                 }
                 .padding()
