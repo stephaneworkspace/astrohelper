@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */; };
 		F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED165292E130C00480C2E /* astrohelperApp.swift */; };
 		F4AED168292E130C00480C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED167292E130C00480C2E /* ContentView.swift */; };
 		F4AED16A292E130E00480C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED169292E130E00480C2E /* Assets.xcassets */; };
 		F4AED16D292E130E00480C2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED16C292E130E00480C2E /* Preview Assets.xcassets */; };
 		F4AED175292E13C500480C2E /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED174292E13C500480C2E /* Zip */; };
 		F4AED178292E13DE00480C2E /* SweBressaniDev in Frameworks */ = {isa = PBXBuildFile; productRef = F4AED177292E13DE00480C2E /* SweBressaniDev */; };
-		F4AED17A292E148500480C2E /* VDignitesAstrales.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED179292E148500480C2E /* VDignitesAstrales.swift */; };
 		F4AED17C292E15B900480C2E /* ephem.zip in Resources */ = {isa = PBXBuildFile; fileRef = F4AED17B292E15B900480C2E /* ephem.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDignitesAstrales.swift; sourceTree = "<group>"; };
 		F4AED162292E130C00480C2E /* astrohelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrohelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AED165292E130C00480C2E /* astrohelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astrohelperApp.swift; sourceTree = "<group>"; };
 		F4AED167292E130C00480C2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4AED169292E130E00480C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AED16C292E130E00480C2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F4AED179292E148500480C2E /* VDignitesAstrales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDignitesAstrales.swift; path = ../../astronumerologie/astronumerologie/VDignitesAstrales.swift; sourceTree = "<group>"; };
 		F4AED17B292E15B900480C2E /* ephem.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ephem.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,10 +59,10 @@
 		F4AED164292E130C00480C2E /* astrohelper */ = {
 			isa = PBXGroup;
 			children = (
+				F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */,
 				F4AED17B292E15B900480C2E /* ephem.zip */,
 				F4AED165292E130C00480C2E /* astrohelperApp.swift */,
 				F4AED167292E130C00480C2E /* ContentView.swift */,
-				F4AED179292E148500480C2E /* VDignitesAstrales.swift */,
 				F4AED169292E130E00480C2E /* Assets.xcassets */,
 				F4AED16B292E130E00480C2E /* Preview Content */,
 			);
@@ -156,8 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4AED17A292E148500480C2E /* VDignitesAstrales.swift in Sources */,
 				F4AED168292E130C00480C2E /* ContentView.swift in Sources */,
+				F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */,
 				F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
