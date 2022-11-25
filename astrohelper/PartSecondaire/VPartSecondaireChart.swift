@@ -27,12 +27,13 @@ public struct VAstrologieChart: View {
                 VAstrologieAngles(bsSwe: $bsSwe, saAngle: angle)
             }
             VAstrologieHouses(bsSwe: $bsSwe)
+            VAstrologiePartSecondaires(bsSwe: $bsSwe)
             ForEach(1...12, id: \.self) { i in
                 VAstrologieAssetHouses(bsSwe: $bsSwe, siHouse: i)
             }
-            ForEach(1...12, id: \.self) { i in
-                VAstrologieAssetPartsSecondaires(bsSwe: $bsSwe, siPart: i)
-            }
+            //ForEach(1...12, id: \.self) { i in
+            //    VAstrologieAssetPartsSecondaires(bsSwe: $bsSwe, siPart: i)
+            //}
             //
             ForEach(Array(zip(bsSwe.bodiesForLoop.indices, bsSwe.bodiesForLoop)), id: \.1) { i, b in
                 if (baBodies[i]) {

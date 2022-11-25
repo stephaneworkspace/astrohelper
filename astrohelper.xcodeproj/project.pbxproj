@@ -10,7 +10,8 @@
 		F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */; };
 		F45CABD2292F5C48003C484D /* VPartsSecondaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABD1292F5C48003C484D /* VPartsSecondaire.swift */; };
 		F45CABD5292F65EA003C484D /* VPartSecondaireChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */; };
-		F481D3682930CE7C00A56492 /* VAstrologiePartSecondaires.swift in Sources */ = {isa = PBXBuildFile; fileRef = F481D3672930CE7C00A56492 /* VAstrologiePartSecondaires.swift */; };
+		F481D3682930CE7C00A56492 /* VAstrologieAssetPartsSecondaires.swift in Sources */ = {isa = PBXBuildFile; fileRef = F481D3672930CE7C00A56492 /* VAstrologieAssetPartsSecondaires.swift */; };
+		F481D36A2930DD6400A56492 /* VAstrologiePartSecondaires.swift in Sources */ = {isa = PBXBuildFile; fileRef = F481D3692930DD6400A56492 /* VAstrologiePartSecondaires.swift */; };
 		F4AED166292E130C00480C2E /* astrohelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED165292E130C00480C2E /* astrohelperApp.swift */; };
 		F4AED168292E130C00480C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED167292E130C00480C2E /* ContentView.swift */; };
 		F4AED16A292E130E00480C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AED169292E130E00480C2E /* Assets.xcassets */; };
@@ -26,7 +27,8 @@
 		F45CABCF292F59C7003C484D /* VDignitesAstrales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDignitesAstrales.swift; sourceTree = "<group>"; };
 		F45CABD1292F5C48003C484D /* VPartsSecondaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartsSecondaire.swift; sourceTree = "<group>"; };
 		F45CABD4292F65EA003C484D /* VPartSecondaireChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPartSecondaireChart.swift; sourceTree = "<group>"; };
-		F481D3672930CE7C00A56492 /* VAstrologiePartSecondaires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAstrologiePartSecondaires.swift; sourceTree = "<group>"; };
+		F481D3672930CE7C00A56492 /* VAstrologieAssetPartsSecondaires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAstrologieAssetPartsSecondaires.swift; sourceTree = "<group>"; };
+		F481D3692930DD6400A56492 /* VAstrologiePartSecondaires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAstrologiePartSecondaires.swift; sourceTree = "<group>"; };
 		F4AED162292E130C00480C2E /* astrohelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrohelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AED165292E130C00480C2E /* astrohelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astrohelperApp.swift; sourceTree = "<group>"; };
 		F4AED167292E130C00480C2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +105,8 @@
 			children = (
 				F4E990D9292F672F00F0B90D /* VPartSecondaireZodiac.swift */,
 				F4E990DC292F767300F0B90D /* VPartSecondaireBodies.swift */,
-				F481D3672930CE7C00A56492 /* VAstrologiePartSecondaires.swift */,
+				F481D3672930CE7C00A56492 /* VAstrologieAssetPartsSecondaires.swift */,
+				F481D3692930DD6400A56492 /* VAstrologiePartSecondaires.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -189,8 +192,9 @@
 			files = (
 				F4AED168292E130C00480C2E /* ContentView.swift in Sources */,
 				F4E990DD292F767300F0B90D /* VPartSecondaireBodies.swift in Sources */,
-				F481D3682930CE7C00A56492 /* VAstrologiePartSecondaires.swift in Sources */,
+				F481D3682930CE7C00A56492 /* VAstrologieAssetPartsSecondaires.swift in Sources */,
 				F45CABD5292F65EA003C484D /* VPartSecondaireChart.swift in Sources */,
+				F481D36A2930DD6400A56492 /* VAstrologiePartSecondaires.swift in Sources */,
 				F45CABD0292F59C7003C484D /* VDignitesAstrales.swift in Sources */,
 				F45CABD2292F5C48003C484D /* VPartsSecondaire.swift in Sources */,
 				F4E990DA292F672F00F0B90D /* VPartSecondaireZodiac.swift in Sources */,

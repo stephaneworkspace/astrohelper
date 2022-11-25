@@ -11,25 +11,11 @@ import SweBressaniDev
 public struct VPartsSecondaire: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     @Binding var bsSwe: SweCore
-    @Binding var bdNatal: Date
-    @Binding var bdLat: Double
-    @Binding var bdLng: Double
-    @Binding var biTimeZone: Int
     @Binding var bbBodies: [Bool]
 
-    public init(bsSwe: Binding<SweCore>,
-                bdNatal: Binding<Date>,
-                bdLat: Binding<Double>,
-                bdLng: Binding<Double>,
-                biTimeZone: Binding<Int>,
-                bbBodies: Binding<[Bool]>) {
+    public init(bsSwe: Binding<SweCore>, bbBodies: Binding<[Bool]>) {
         self._bsSwe = bsSwe
-        self._bdNatal = bdNatal
-        self._bdLat = bdLat
-        self._bdLng = bdLng
-        self._biTimeZone = biTimeZone
         self._bbBodies = bbBodies
-        self.bsSwe.set(natal: self.bdNatal, transit: Date(), lat: self.bdLat, lng: self.bdLng, tz: Int32(self.biTimeZone), colorMode: .Light)
     }
 
     public var body: some View {
@@ -37,12 +23,6 @@ public struct VPartsSecondaire: View {
             VAstrologieChart(bsSwe: $bsSwe, baBodies: $bbBodies)
             VAstrologieTableau1(bsSwe: $bsSwe)
             VAstrologieTableau2(bsSwe: $bsSwe, sbTransit1: false, sbTransit2: false)
-            VStack {
-            }.frame(height: 16 * 6)
-            VAstrologieTableau2(bsSwe: $bsSwe, sbTransit1: true, sbTransit2: true)
-            VStack {
-            }.frame(height: 16 * 6)
-            VAstrologieTableau2(bsSwe: $bsSwe, sbTransit1: false, sbTransit2: true)
             VStack {
             }.frame(height: 16 * 6)
             Button(action: {
