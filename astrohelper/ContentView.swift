@@ -56,7 +56,9 @@ struct ContentView: View {
                 }
                 .tag(1)
                 VStack {
-                    VPartsSecondaire(bsSwe: $swe, bbBodies: $swBodies)
+                    if siSelected == 2 {
+                        VPartsSecondaire(bsSwe: $swe, bbBodies: $swBodies)
+                    }
                 }
                 .padding()
                 .tabItem {
